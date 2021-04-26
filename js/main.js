@@ -13,15 +13,7 @@ names.forEach(function (val, index) {
 contner.append(upprcse);
 const mapname = names.map(getnames);
 console.log(mapname);
-// const inputsupper = document.querySelectorAll('input[type="text"]');
-// console.log(inputsupper);
 
-// inputsupper.addEventListener("keyup", upperkey());
-
-// function upperkey() {
-//   console.log(this);
-//   // this.value = this.value.toUpperCase();
-// }
 const d1 = new Date().toISOString().substr(0, 10);
 
 function getnames(datanames) {

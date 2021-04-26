@@ -43,6 +43,8 @@ body {
   display: flex;
 }
 .profpic {
+  width: 400px;
+  height: 400px;
   padding: 2rem;
   width: 100%;
 }
